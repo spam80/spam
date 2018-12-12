@@ -46,9 +46,17 @@ client2.on('message', message => {
 });
 
 client2.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#credits')
-    }
+    if (message.content === '-ريب'){
+        let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`**Fuck OFF :notes: .Lumiz , Fuck OFF :notes:** [ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
 });
 
 
@@ -57,7 +65,7 @@ client.on('message', message => { // لا تغير شئ عشان ما تخرب �
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 1; x++) {
+      for(let x = 0; x < 90000; x++) {
         message.channel.send(`**Fuck OFF :notes: .Lumiz , Fuck OFF :notes:** [ " ${x} " ]`)
           .then(m => {
             count++;
@@ -71,7 +79,7 @@ client2.on('message', message => { // لا تغير شئ عشان ما تخرب 
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 1; x++) {
+      for(let x = 0; x < 90000; x++) {
         message.channel.send(`** Fuck OFF :notes: .Lumiz , Fuck OFF :notes: **[ " ${x} " ]`)
           .then(m => {
             count++;
